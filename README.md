@@ -20,5 +20,5 @@ $ sudo docker pull classcat/ubuntu-sshd:trusty
 
 ```
 $ sudo docker run -d --name (container name) -p 2022:22 \  
-  -e (root password) classcat/ubuntu-sshd:trusty
+  -e password=(root password) classcat/ubuntu-sshd:trusty
 ```
